@@ -1,0 +1,174 @@
+.h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(img/background.tiff);
+    background-repeat: repeat;
+    background-size: 500px 750px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(151, 132, 132); }
+
+.headercontent,
+.main {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 20px;
+}
+
+.mainnav,
+.footernav {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.mainnav {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: rgb(151, 132, 132);
+  padding: 10px 13px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mainimage {
+  display: block;
+  background-image: url(img/front_image.jpg);
+  background-position: center;
+  background-size: 100%;
+  margin: auto;
+  width: 900px;
+  height: 420px;
+  overflow: hidden;
+}
+
+.aboutus {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutus p {
+  text-align: left;
+  width: 55%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  grid-template-areas: "pic word";
+  padding: 10px 50px 0 50px;
+  align-items: center;
+  justify-items: center;
+}
+
+.self {
+  grid-area: pic;
+  align-self: center;
+  text-align: center;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #E6D8D6;
+  margin-top: 20px;
+}
+
+.inputbox {
+  margin-top: 20px;
+}
+
+.plane {
+  position: absolute;
+  left: -1000px;
+  width: 50%;
+}
+
+/*.footercontent {
+  width: 80%;
+  height: 50px;
+  text-align: right;
+  background: #e7e1e0;
+}*/
+
+.footercontent {
+  max-width: 1000px;
+  height: 50px;
+  text-align: right;
+  background: #fff;
+  margin: auto;
+  padding: 10px;
+
+
+}
+
+.button {
+  width: 10%;
+  float: left;
+  padding: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  background: #E6D8D6;
+  border-radius: 200px;
+  text-align: left;
+  width: fit-content;
+  height: fit-content;
+}
+
+.moreText {
+  display: none;
+}
+
+.read-more-btn {
+  padding: 15px 60px;
+  background-color: #E6D8D6;
+  color: rgb(151, 132, 132);
+  border:none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
+}
+
+.movingcontent {
+  padding: 20px;
+  height: 400px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 580px;
+}
+
+
+
